@@ -265,7 +265,6 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 40px;
   margin-bottom: 25px;
-  font-family: 'Noto Sans', serif;
 }
 
 @media (max-width: 380px) {
@@ -324,7 +323,6 @@ h6 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 25px;
   margin-bottom: 40px;
-  font-family: 'Noto Sans', serif;
 }
 
 @media (max-width: 767px) {
@@ -375,7 +373,6 @@ h3 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 40px;
   margin-bottom: 40px;
-  font-family: 'Noto Sans', serif;
 }
 
 @media (max-width: 767px) {
@@ -411,7 +408,6 @@ h3 {
 
 .discount-info h4 {
   color: #007bff;
-  font-family: 'Noto Sans', serif;
 }
 
 .custom-heading {
@@ -630,6 +626,7 @@ footer a:hover {
 
 .card-body {
   background-color: #ffffff;
+  border-radius: 5px;
 }
 
 .achievement-info {
@@ -722,10 +719,6 @@ footer a:hover {
   height: 200px;
   width: 100%;
   object-fit: cover;
-}
-
-.card-body {
-  padding: 20px;
 }
 
 .carousel-item {
