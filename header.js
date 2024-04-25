@@ -25,10 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <a class="nav-link active" aria-current="page" href="touroperators.html">Туроператоры</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">О нас</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+            <a class="nav-link active" aria-current="page" href="contacts.html">Контакты</a>
           </li>
         </ul>
       </div>
