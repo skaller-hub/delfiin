@@ -89,64 +89,66 @@
 /*============================================================ФОРМА======================================================================= */
 
 .flight-form {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: right !important;
-  align-items: center !important;
-  gap: 10px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
 }
 
 .flight-form input[type="text"],
 .flight-form select,
 .flight-form input[type="number"] {
-  min-width: 230px !important;
-  max-width: 230px !important;
-  padding: 10px !important;
-  font-size: 16px !important;
-  text-align: left !important;
-  border: 2px solid #007bff !important;
-  border-radius: 5px !important;
-  background: white !important;
+  min-width: 230px;
+  max-width: 230px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: left;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background: white;
+  -webkit-appearance: none;
 }
 
 .flight-form input[type="text"]::placeholder {
-  text-align: left !important;
-  color: #000000 !important;
+  text-align: left;
+  color: #000000;
 }
 
 .flight-form input[type="number"]::placeholder {
-  text-align: left !important;
-  color: #000000 !important;
+  text-align: left;
+  color: #000000;
 }
 
 .flight-form button {
-  padding: 10px 20px !important;
-  min-width: 230px !important;
-  max-width: 230px !important;
-  background: #007bff !important;
-  color: white !important;
-  border: none !important;
-  border-radius: 5px !important;
-  transition: background-color 0.3s, transform 0.3s !important;
+  padding: 10px 20px;
+  min-width: 230px;
+  max-width: 230px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .flight-form button:hover {
-  background: #0056b3 !important;
-  transform: scale(1.05) !important;
+  background: #0056b3;
+  transform: scale(1.05);
 }
 
 .flight-form select {
-  cursor: pointer !important;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 @media (min-width: 992px) {
   .flight-form {
-    flex-wrap: nowrap !important;
+    flex-wrap: nowrap;
   }
 
   .flight-form input[type="text"],
   .flight-form button {
-    flex-grow: 1 !important;
+    flex-grow: 1;
   }
 }
 
@@ -154,63 +156,63 @@
 @media (max-width: 1220px) {
 
   .flight-form {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 100% !important;
-    padding: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
   }
 
   .flight-form input[type="text"] {
-    width: 80% !important;
+    width: 80%;
   }
 
   .flight-form button {
-    width: 80% !important;
+    width: 80%;
   }
 
   .centered-content {
-    position: absolute !important;
-    top: 30% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: auto !important;
-    padding: 20px !important;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 20px;
   }
 }
 
 @media screen and (max-width: 950px) {
   .text {
-    font-size: 22px !important;
-    color: #ffffff !important;
-    text-shadow: 2px 2px 4px #000000 !important;
-    margin-bottom: 45px !important;
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 45px;
   }
 
 }
 
 @media screen and (max-width: 1030px) {
   .navbar {
-    background-color: #007bff !important;
+    background-color: #007bff;
   }
 
   .img-fluid {
-    width: 100% !important;
-    object-fit: cover !important;
-    min-height: 730px !important;
+    width: 100%;
+    object-fit: cover;
+    min-height: 730px;
   }
 }
 
 @media screen and (max-width: 780px) {
   .navbar {
-    background-color: #007bff !important;
+    background-color: #007bff;
   }
 
   .img-fluid {
-    width: 100% !important;
-    object-fit: cover !important;
-    min-height: 550px !important;
+    width: 100%;
+    object-fit: cover;
+    min-height: 550px;
   }
 }
 
@@ -218,37 +220,37 @@
 @media (max-width: 380px) {
 
   .centered-content {
-    margin-top: 50px !important;
-    position: absolute !important;
-    top: 70% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: auto !important;
-    padding: 20px !important;
+    margin-top: 50px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 20px;
   }
 
   .img-fluid {
-    width: 100% !important;
-    object-fit: cover !important;
-    min-height: 730px !important;
+    width: 100%;
+    object-fit: cover;
+    min-height: 730px;
   }
 }
 
 @media (max-width: 445px) {
 
   .centered-content {
-    position: absolute !important;
-    top: 45% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    width: auto !important;
-    padding: 20px !important;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 20px;
   }
 
   .img-fluid {
-    width: 100% !important;
-    object-fit: cover !important;
-    min-height: 730px !important;
+    width: 100%;
+    object-fit: cover;
+    min-height: 730px;
   }
 }
 
